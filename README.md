@@ -11,8 +11,8 @@ Para garantizar el rigor técnico del proyecto, los resultados de negocio se div
 
 **1. Selección y Eficiencia (Evaluado en Validación):**
 * Aumento de ventas: frente al modelo estadístico base (Regresión Logística), el modelo XGBoost optimizado logró saltar de 133 a 142 depósitos captados manteniendo el mismo esfuerzo (226 llamadas).
-* Eficiencia operativa: estas 9 ventas adicionales no generaron costes adicionales para la campaña, aumentando en un 4% la precisión del modelo.
-* Control de riesgo: se seleccionó un modelo conservador para minimizar el riesgo de sobreajuste en producción (apenas un 0.28%).
+* Eficiencia operativa: estas 9 ventas adicionales no generaron costes adicionales para la campaña.
+* Control de riesgo: se seleccionó un modelo conservador para minimizar el riesgo de sobreajuste (apenas un 0.28%).
 
 **2. Simulador Financiero (Evaluado en Test):**
 * Rentabilidad Demostrada: al simular el modelo sobre un conjunto de datos nunca antes visto por el algoritmo, la campaña dirigida al top 5% generó un **beneficio neto estimado de +1399.22 €**.
